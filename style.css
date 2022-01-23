@@ -1,0 +1,42 @@
+.container23{
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 40px;
+    /* background-color: aquamarine; */
+    align-items: center;
+}
+.container23 img{
+    width:291px ;
+    height:39px ;
+}
+.right-side-nav{
+    display: flex;
+}
+
+.right-side-nav li a{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 5px;
+ 
+}
+.right-side-nav li a:hover{
+    color: gold;
+    background-color: grey;
+}
+/* --------------------
+    nav end
+----------------------- */
+.color-top-hading{
+    color:#FAC153 ;
+}
+@media only screen and(max-width:400px) {
+
+    .container23{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+}
